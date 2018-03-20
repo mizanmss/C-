@@ -1,3 +1,5 @@
+
+// pyramid in c using number
 #include <stdio.h>
 void main()
 {
