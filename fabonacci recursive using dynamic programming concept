@@ -1,0 +1,25 @@
+
+// fabonacci recursive using dynamic programming concept
+#include <stdio.h>
+int array[20];
+int fibanacci(int n)
+   {
+       if(n==0 || n==1){
+       return 1;}
+       else 
+      { 
+          if(array[n]==0){
+            array[n]= fibanacci(n-1)+ fibanacci(n-2);
+            return array[n];
+          }
+         
+          
+      }
+   }
+
+void main()
+{
+    
+    printf("%d\n",fibanacci(0));
+
+}
