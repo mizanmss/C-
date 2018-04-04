@@ -1,0 +1,21 @@
+
+
+#include <stdio.h>
+
+int fibanacci(int n)
+   {
+       if(n==0 || n==1){
+       return 1;}
+       else 
+      { 
+          return fibanacci(n-1)+ fibanacci(n-2);
+          
+      }
+   }
+
+void main()
+{
+    
+    printf("%d\n",fibanacci(10));
+
+}
